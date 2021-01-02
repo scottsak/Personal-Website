@@ -15,13 +15,13 @@ h1{
 h2{
   margin-top: 0;
   font-family: 'Source Code Pro', sans-serif;
-  color: #0E8C3A;
+  color: #426F42;
   font-size: 25px;
 }
 h3{
   font-family: 'Source Code Pro', sans-serif;
   font-weight:bold;
-  color: #37BC61;
+  color: #0E8C3A;
 }
 
 p{
@@ -45,10 +45,6 @@ p{
   top: 350px;
 }
 
-.mountain{
-  position: relative;
-  left: 50px;
-}
 .computer{
   border-radius: 50%;
   width: 200px;
@@ -56,6 +52,12 @@ p{
   float: left;
   margin-right: 80px;
 }
+
+.mountain{
+  position: relative;
+  left: 50px;
+}
+
 .puzzle{
   width: 200px;
   height: 200px;
@@ -83,10 +85,16 @@ p{
 
 .skill-row{
   width: 50%;
-  margin: 50px auto 100px auto;
-  padding-top: 20px;
+  margin: 30px auto 100px auto;
+
   text-align: left;
 }
+
+.skills{
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
 .copyright{
   color: white;
 }
@@ -99,4 +107,21 @@ p{
   padding-top: 30px;
   background-color: #37BC61;
   height: 100px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Raleway';
+  color: #ffffff;
+  font-size: 20px;
+  background: #20ad1d;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4AC948;
+  text-decoration: none;
 }
