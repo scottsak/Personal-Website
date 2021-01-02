@@ -37,11 +37,12 @@ p{
 .cloud-top{
   position: absolute;
   top: 50px;
-  right: 600px;
+  right: 400px;
 }
 .cloud-bottom{
   position: absolute;
-  left: 700px;
+  left: 400px;
+  top: 350px;
 }
 
 .mountain{
@@ -62,6 +63,13 @@ p{
   margin-left: 80px;
 }
 
+.talking{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 80px;
+}
+
 .scott{
   border-radius: 70%;
   width: 300px;
@@ -75,8 +83,12 @@ p{
 
 .skill-row{
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 100px auto;
+  padding-top: 20px;
   text-align: left;
+}
+.copyright{
+  color: white;
 }
 
 .middle-container{
@@ -84,6 +96,7 @@ p{
 }
 .bottom-container{
   margin: 40px auto 0 auto;
-  padding-top: 20px;
+  padding-top: 30px;
   background-color: #37BC61;
+  height: 100px;
 }
