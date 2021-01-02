@@ -8,13 +8,24 @@ body{
 h1{
   font-size: 80px;
   margin: 50px auto 10px auto;
+  color: #337147;
   font-family: 'Exo', 'Bebas Neue', sans-serif;
 }
 
 h2{
   margin-top: 0;
   font-family: 'Source Code Pro', sans-serif;
+  color: #0E8C3A;
   font-size: 25px;
+}
+h3{
+  font-family: 'Source Code Pro', sans-serif;
+  font-weight:bold;
+  color: #37BC61;
+}
+
+p{
+  line-height: 2;
 }
 
 .intro{
@@ -41,21 +52,38 @@ h2{
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  float: left;
+  margin-right: 80px;
 }
 .puzzle{
   width: 200px;
   height: 200px;
+  float: right;
+  margin-left: 80px;
 }
 
 .scott{
-  border-radius: 50%;
+  border-radius: 70%;
   width: 300px;
   height: 300px;
 }
 
-.middle{
+.footer-link{
+  margin: auto 10px auto 10px;
+  font-size: 20px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.middle-container{
 
 }
-.bottom{
-
+.bottom-container{
+  margin: 40px auto 0 auto;
+  padding-top: 20px;
+  background-color: #37BC61;
 }
