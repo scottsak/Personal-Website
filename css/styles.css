@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-  font-size: 80px;
+  font-size: 500%;
   margin: 0 auto 10px auto;
   color: #337147;
   font-family: 'Exo', 'Bebas Neue', sans-serif;
@@ -36,31 +36,33 @@ p{
 
 .css{
   position: absolute;
-  height: 80px;
-  width: 80px;
-  left: 200px;
-  top: 600px;
+  height: 10%;
+  width: 6%;
+  left: 20%;
+  top: 80%;
 }
 
 .html5{
   position: absolute;
-  height: 80px;
-  width: 80px;
-  right: 200px;
-  top: 600px;
+  height: 10%;
+  width: 6%;
+  right: 20%;
+  top: 80%;
 }
 
 .java{
   position: absolute;
-  height: 80px;
-  width: 80px;
-  right: 200px;
+  height: 10%;
+  width: 6%;
+  right: 20%;
+  top: 45%;
 }
 .python{
   position: absolute;
-  height: 80px;
-  width:80px;
-  left: 200px;
+  height: 10%;
+  width: 6%;
+  left: 20%;
+  top: 45%;
 }
 
 .computer{
@@ -76,6 +78,8 @@ p{
 
 .coding{
   position: relative;
+  height: 30%;
+  width: 30%;
   padding-top: 40px;
   padding-bottom: 30px;
 }
