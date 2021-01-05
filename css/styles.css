@@ -7,7 +7,7 @@ body{
 
 h1{
   font-size: 80px;
-  margin: 50px auto 10px auto;
+  margin: 0 auto 10px auto;
   color: #337147;
   font-family: 'Exo', 'Bebas Neue', sans-serif;
 }
@@ -31,18 +31,36 @@ p{
 .intro{
   background-color: #C3E4ED;
   position: relative;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
-.cloud-top{
+.css{
   position: absolute;
-  top: 50px;
-  right: 400px;
+  height: 80px;
+  width: 80px;
+  left: 200px;
+  top: 600px;
 }
-.cloud-bottom{
+
+.html5{
   position: absolute;
-  left: 400px;
-  top: 350px;
+  height: 80px;
+  width: 80px;
+  right: 200px;
+  top: 600px;
+}
+
+.java{
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  right: 200px;
+}
+.python{
+  position: absolute;
+  height: 80px;
+  width:80px;
+  left: 200px;
 }
 
 .computer{
@@ -53,12 +71,13 @@ p{
   margin-right: 80px;
 }
 .hobbies-row{
-  
+
 }
 
-.mountain{
+.coding{
   position: relative;
-  left: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .puzzle{
@@ -81,6 +100,7 @@ p{
 
 .scott{
   border-radius: 70%;
+  padding-top: 30px;
   width: 300px;
   height: 300px;
 }
