@@ -73,7 +73,10 @@ p{
   margin-right: 80px;
 }
 .hobbies-row{
+  width: 50%;
+  margin: 30px auto 100px auto;
 
+  text-align: left;
 }
 
 .coding{
