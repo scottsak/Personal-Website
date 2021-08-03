@@ -140,7 +140,7 @@ p{
 }
 .bottom-container{
   margin: 0 auto 0 auto;
-  padding-top: 10px;
+  padding-top: 20px;
   background-color: #37BC61;
   height: 100px;
 }
@@ -160,4 +160,8 @@ p{
 .btn:hover {
   background: #4AC948;
   text-decoration: none;
+}
+
+.contact-me{
+  padding-bottom: 50px;
 }
