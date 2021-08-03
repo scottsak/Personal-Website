@@ -26,10 +26,11 @@ h3{
 
 p{
   line-height: 2;
+  color: #00FF00;
 }
 
 .intro{
-  background-color: #C3E4ED;
+  background-color: #000000;
   position: relative;
   padding-top: 80px;
 }
@@ -134,11 +135,12 @@ p{
 }
 
 .middle-container{
-
+  background-color: #000000;
+  height: auto;
 }
 .bottom-container{
-  margin: 40px auto 0 auto;
-  padding-top: 30px;
+  margin: 0 auto 0 auto;
+  padding-top: 10px;
   background-color: #37BC61;
   height: 100px;
 }
